@@ -1,0 +1,19 @@
+{
+  "orderId": "TC18",
+  "orderType": "adidas",
+  "status": "despatched",
+  "customerId": "customerTC18",
+  "customerOrderNumber": 18,
+  "orderCreated": "2021-06-28",
+  "supplierCode": "supplierTC18",
+  "supplierOrderId": "supOrderTC18",
+  "orderLines": [
+    {
+      "orderId": "TC18",
+      "sku": "sku18a",
+      "orderLineNumber": 18,
+      "quantity": 2,
+      "priceCharged": 18.45
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+The purpose of the framework within this repository is to enable the Retail tribe
+to have a highly flexible suite of tests to provide confidence to the business.
+
+The framework is built off of a foundation of Karate DSL (https://github.com/intuit/karate)
+And will enable the tribe to build API test scenarios with minimal setup.
+
+Confluence:
+https://x.net/wiki/spaces/RET/pages/2/KarateDSL+Api
+
+#####################################################################
+//Terminal runs -
+
+Run test classes/runners and set environment via mvn:
+- mvn clean test -Dtest=JavaTestClassName#testMethod
+    - e.g. mvn clean test -Dtest=regressionRunner#testAllRegressionParallel "-Dkarate.env=dev"
+
+Run cucumber @tags via mvn:
+- mvn clean test -Dcucumber.options="--tags @Sanity"

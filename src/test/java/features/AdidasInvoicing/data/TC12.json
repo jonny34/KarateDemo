@@ -1,0 +1,27 @@
+{
+  "orderId": "TC12",
+  "orderType": "adidas",
+  "status": "despatched",
+  "customerId": "customerTC12",
+  "orderCreated": "2021-06-28",
+  "supplierCode": "supplierTC12",
+  "supplierOrderId": "supOrderTC12",
+  "orderLines": [
+    {
+      "orderId": "TC12",
+      "status": "despatched",
+      "sku": "sku12a",
+      "orderLineNumber": 12,
+      "quantity": 2,
+      "priceCharged": 13.45
+    },
+    {
+      "orderId": "TC12",
+      "status": "ordered",
+      "sku": "sku12b",
+      "orderLineNumber": 122,
+      "quantity": 2,
+      "priceCharged": 13.45
+    }
+  ]
+}

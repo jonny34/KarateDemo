@@ -1,0 +1,19 @@
+{
+  "orderId": "TC20",
+  "orderType": "adidas",
+  "status": "despatched",
+  "customerId": "customerTC20",
+  "customerOrderNumber": 20,
+  "orderCreated": "2021-06-28",
+  "supplierCode": "supplierTC20",
+  "supplierOrderId": "supOrderTC20",
+  "orderLines": [
+    {
+      "orderId": "TC20",
+      "status": "despatched",
+      "sku": "sku20a",
+      "quantity": 2,
+      "priceCharged": 20.45
+    }
+  ]
+}

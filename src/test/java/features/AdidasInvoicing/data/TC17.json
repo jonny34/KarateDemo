@@ -1,0 +1,19 @@
+{
+  "orderId": "TC17",
+  "orderType": "adidas",
+  "status": "despatched",
+  "customerId": "customerTC17",
+  "customerOrderNumber": 17,
+  "orderCreated": "2021-06-28",
+  "supplierCode": "supplierTC17",
+  "supplierOrderId": "supOrderTC17",
+  "orderLines": [
+    {
+      "status": "despatched",
+      "sku": "sku17a",
+      "orderLineNumber": 17,
+      "quantity": 2,
+      "priceCharged": 17.45
+    }
+  ]
+}

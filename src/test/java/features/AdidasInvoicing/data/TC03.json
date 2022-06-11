@@ -1,0 +1,28 @@
+{
+  "orderId": "TC02",
+  "orderType": "adidas",
+  "status": "despatched",
+  "customerId": "customerTC02",
+  "customerOrderNumber": 123456789,
+  "orderCreated": "2021-12-12",
+  "supplierCode": "supplierTC02",
+  "supplierOrderId": "supOrderTC02",
+  "orderLines": [
+    {
+      "orderId": "TC02",
+      "status": "despatched",
+      "sku": "sku12345",
+      "orderLineNumber": 33737939,
+      "quantity": 2,
+      "priceCharged": 13.45
+    },
+    {
+      "orderId": "TC02",
+      "status": "ordered",
+      "sku": "sku67893",
+      "orderLineNumber": 4566777,
+      "quantity": 2,
+      "priceCharged": 13.45
+    }
+  ]
+}

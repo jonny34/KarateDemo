@@ -1,0 +1,54 @@
+{
+  "Payload": {
+    "orderEvent": {
+      "source": "OMS",
+      "eventType": "OrderDespatch",
+      "version": 1,
+      "timestamp": "2021-06-28T12:01:01",
+      "order": {
+        "orderType": "Fulfilment",
+        "orderCreated": "2021-06-28T11:01:01",
+        "sellerOrganization": "LEX",
+        "shipment": {
+          "parcel": {
+            "carrier": {
+              "code": 41,
+              "service": "XXXX",
+              "deliveryServiceLevel": "72HR",
+              "name": "RM TRACKED 24",
+              "barcode": "YYYYYY"
+            },
+            "despatchedDate": "2021-06-29T06:01:01"
+          },
+          "shipmentId": "F1234512345"
+        },
+        "orderId": "TC01g-10T",
+        "orderLines": [
+          {
+            "orderLine": {
+              "number": 1,
+              "quantity": 1,
+              "priceCharged": 25.99,
+              "sku": "TC01g-10T1",
+              "status": "Despatched"
+            }
+          }
+        ],
+        "countryCode": "GB",
+        "supplier": {
+          "supplierOrderId": "XXXXXX",
+          "supplierCode": "A123"
+        },
+        "customerId": "26590701",
+        "postCode": "FY5 1AA",
+        "customerOrderNo": 8,
+        "status": "Confirmed",
+        "dc": {
+          "dccode": "str1234"
+        }
+      }
+    }
+  },
+  "CorrelationId": "010d8ba2-7f94-4516-b801-9f27ff8df323",
+  "TimeStamp": "1624458983"
+}

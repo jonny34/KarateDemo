@@ -1,0 +1,29 @@
+{
+  "orderId": "TC07",
+  "orderType": "adidas",
+  "status": "despatched",
+  "customerId": "customerTC07",
+  "customerOrderNumber": 7,
+  "orderCreated": "2021-06-28",
+  "supplierCode": "supplierTC07",
+  "supplierOrderId": "supOrderTC07",
+  "extraField1": "ExtraFieldTC07",
+  "orderLines": [
+    {
+      "orderId": "TC07",
+      "status": "despatched",
+      "sku": "sku7a",
+      "orderLineNumber": 777,
+      "quantity": 2,
+      "priceCharged": 13.45
+    },
+    {
+      "orderId": "TC07",
+      "status": "ordered",
+      "sku": "sku7b",
+      "orderLineNumber": 778,
+      "quantity": 2,
+      "priceCharged": 13.45
+    }
+  ]
+}
